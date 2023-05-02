@@ -11,6 +11,7 @@ export default function Layout() {
     </StyledContainer>
   );
 }
+
 const StyledContainer = styled.div`
   background: ${({ theme }) => theme.colors.background};
   width: 1080px;

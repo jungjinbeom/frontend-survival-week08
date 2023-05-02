@@ -1,15 +1,11 @@
 import styled from "styled-components";
+import { ButtonProps } from "../../../types/buttonType";
 
 interface SwitchProps {
   label: string[];
   isDarkMode: boolean;
   toggle: () => void;
 }
-
-type ButtonProps = {
-  type?: "button" | "submit" | "reset";
-  isDarkMode: boolean;
-};
 
 export default function Switch({ label, isDarkMode, toggle }: SwitchProps) {
   return (
